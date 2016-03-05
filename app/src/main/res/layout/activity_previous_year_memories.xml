@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.impressions.jiit.previous_year_memories"
+    android:background="#030303">
+
+    <TextView android:text="Impressions 2015" android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#a41d3b"
+        android:gravity="center_vertical|center_horizontal"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:id="@+id/hb" />
+
+    <WebView  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/webView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/hb" />
+</RelativeLayout>

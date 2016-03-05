@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff"
+    android:weightSum="1"
+    android:id="@+id/vg"
+    android:padding="0dp">
+
+    <RelativeLayout
+        android:layout_width="151dp"
+        android:layout_height="211dp"
+        android:padding="10dp"
+        android:id="@+id/see_all_rel"
+        android:background="@drawable/card2"
+        android:elevation="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="See all event list"
+            android:id="@+id/title"
+            android:textColor="#010001"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:padding="2dp"
+            android:gravity="center_horizontal"
+            android:layout_alignRight="@+id/memories_Dp"
+            android:layout_alignEnd="@+id/memories_Dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Date"
+            android:id="@+id/date"
+            android:layout_gravity="right"
+            android:paddingRight="10dp"
+            android:textColor="#ff1d6728"
+            android:textSize="0dp"
+            android:layout_alignTop="@+id/time"
+            android:layout_alignLeft="@+id/memories_Dp"
+            android:layout_alignStart="@+id/memories_Dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:id="@+id/memories_Dp"
+            android:src="@drawable/see_all"
+            android:layout_above="@+id/title"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Time"
+            android:id="@+id/time"
+            android:layout_gravity="right"
+            android:paddingRight="10dp"
+            android:textColor="#ff1d6728"
+            android:textSize="0dp"
+            android:layout_alignRight="@+id/memories_Dp"
+            android:layout_alignEnd="@+id/memories_Dp"
+            android:layout_alignTop="@+id/memories_Dp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

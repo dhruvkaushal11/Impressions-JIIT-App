@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sc"
+    android:background="#ffffff">
+
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/sc"
+            android:background="#ffffff">
+        <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView3"
+        android:src="@drawable/update"
+        android:padding="20dp"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=" "
+        android:id="@+id/status"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="116dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="App update Centre!"
+        android:id="@+id/textView14"
+        android:background="#a41d3b"
+        android:textColor="#ffffff"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checking for Updates"
+        android:id="@+id/updatestatus"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#66408e"
+        android:autoText="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:padding="5dp"
+        android:layout_below="@+id/imageView7"
+        android:textColor="#ffffff"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="5dp"
+        android:background="#a41d3b"
+        android:text=" " />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView11"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:padding="10dp"
+        android:gravity="left"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Version 1.01 | Stable\n  \n\nFor Beta Version contact the developers by sending the request under ContactUs/Feedback section!         "
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView8"
+                android:layout_below="@+id/updatestatus"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:padding="5dp"
+                android:textColor="#010101"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:gravity="center_horizontal"
+                android:text="Status" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

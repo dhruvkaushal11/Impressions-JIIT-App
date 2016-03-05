@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sc">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView4" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Please provide your valuable feedback to further improve this App"
+                android:id="@+id/textView3"
+                android:background="#a41d3b"
+                android:textColor="#ffffff"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:gravity="center_horizontal"
+                android:padding="10dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/message"
+                android:hint="You can report a bug/ provide us your feedback/ suggestion or new ideas."
+                android:paddingTop="50dp"
+                android:paddingBottom="50dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_below="@+id/email_id"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:id="@+id/send_message"
+                android:src="@drawable/ic_send_black_24dp"
+                android:background="#a41d3b"
+                android:padding="10dp"
+                android:layout_below="@+id/message"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" "
+                android:id="@+id/status"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="116dp" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/email_id"
+                android:padding="20dp"
+                android:hint="Email Id (Optional)"
+                android:gravity="center_horizontal"
+                android:layout_below="@+id/textView3"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="For sponsors related queries contact"
+                android:id="@+id/textView26"
+                android:layout_below="@+id/send_message"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:padding="10dp"
+                android:gravity="center_horizontal"
+                android:textColor="#010101" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Prabhav Garg"
+                android:id="@+id/textView27"
+                android:layout_below="@+id/textView26"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="#010101"
+                android:padding="2dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="9868204025"
+                android:id="@+id/textView28"
+                android:layout_below="@+id/textView27"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="2dp"
+                android:autoLink="phone" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Parmeshwar Jha"
+                android:id="@+id/textView29"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="#010101"
+                android:layout_below="@+id/textView28"
+                android:layout_centerHorizontal="true"
+                android:padding="2dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="8447724464"
+                android:id="@+id/textView30"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_below="@+id/textView29"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:padding="2dp"
+                android:autoLink="phone" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

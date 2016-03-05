@@ -1,0 +1,206 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    tools:context="com.impressions.jiit.updatepage"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_alignBottom="@+id/multiple_actions"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:tag="Loading Image! Please Wait"
+            android:background="#79162e" />
+
+        <org.lucasr.twowayview.TwoWayView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/faculty_contact"
+            style="@style/TwoWayView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawSelectorOnTop="false"
+            tools:context="com.impressions.jiit.updatepage"
+            android:layout_below="@+id/textView10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <org.lucasr.twowayview.TwoWayView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/lvItems"
+            style="@style/TwoWayView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:drawSelectorOnTop="false"
+            tools:context="com.impressions.jiit.updatepage"
+            android:background="#ffffff"
+            android:layout_below="@+id/textView39"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <org.lucasr.twowayview.TwoWayView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/lvItems2"
+            style="@style/TwoWayView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:drawSelectorOnTop="false"
+            tools:context="com.impressions.jiit.updatepage"
+            android:layout_below="@+id/textView40"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#ffffff" />
+        <org.lucasr.twowayview.TwoWayView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/lvItems3"
+            style="@style/TwoWayView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawSelectorOnTop="false"
+            tools:context="com.impressions.jiit.updatepage"
+            android:background="#ffffff"
+            android:layout_below="@+id/textView9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <org.lucasr.twowayview.TwoWayView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/lvItems4"
+            style="@style/TwoWayView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:drawSelectorOnTop="false"
+            tools:context="com.impressions.jiit.updatepage"
+            android:background="#ffffff"
+            android:layout_below="@+id/textView13"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Recently Added"
+            android:id="@+id/textView39"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textColor="#010101"
+            android:layout_below="@+id/faculty_contact"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Popular Events"
+            android:id="@+id/textView40"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/lvItems"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#010101" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Browse by Hub Category"
+            android:id="@+id/textView9"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textColor="#010101"
+            android:layout_below="@+id/lvItems2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Browse by Category"
+            android:id="@+id/textView10"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textColor="#010101"
+            android:layout_below="@+id/view_pager"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Sponsors"
+            android:id="@+id/textView13"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textColor="#010101"
+            android:layout_below="@+id/lol"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:background="@drawable/card2"
+            android:layout_below="@+id/lvItems3"
+            android:layout_height="50dp"
+            android:id="@+id/lol"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Previous Year Impressions"
+                android:id="@+id/textView24"
+                android:padding="2dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
+                android:textColor="#ffffff"
+                android:background="#a41d3b" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.impressions.jiit.sponsor_description"
+    android:background="#a41d3b">
+
+    <TextView android:text="Impressions 2016 Sponsor" android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ddsd"
+        android:background="#a41d3b"
+        android:padding="10dp"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:id="@+id/imageView_sponsor"
+        android:layout_below="@+id/ddsd"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Sponsor Description-"
+        android:id="@+id/description_sponsor"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Name-"
+        android:id="@+id/name"
+        android:layout_below="@+id/imageView_sponsor"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Link-"
+        android:id="@+id/link"
+        android:layout_below="@+id/description_sponsor"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#fff800"
+        android:padding="10dp"
+        android:autoLink="email|web"
+        android:textColorLink="#fff800" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_alignBottom="@+id/ddsd"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="X"
+        android:id="@+id/close"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ffffff"
+        android:padding="10dp" />
+
+</RelativeLayout>

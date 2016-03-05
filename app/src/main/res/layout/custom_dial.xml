@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+<RadioGroup
+    android:layout_width="match_parent"
+    android:id="@+id/rad_group"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+
+    <RadioButton
+        android:id="@+id/rd_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="On Time"
+        android:checked="false"
+        android:layout_below="@+id/event_type_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RadioButton
+        android:id="@+id/rd_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rd_1"
+        android:text="1 hour before"
+        android:checked="false" />
+
+
+    <RadioButton
+        android:id="@+id/rd_3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="6 hours before"
+        android:layout_below="@+id/rd_2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RadioGroup>
+
+</RelativeLayout>

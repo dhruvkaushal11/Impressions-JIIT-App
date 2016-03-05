@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name" >Impressions</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_userpage">userpage</string>
+    <string name="title_activity_how_it_works">how_it_works</string>
+    <string name="title_activity_comment_page">comment_page</string>
+    <string name="title_activity_new_status">new_status</string>
+    <string name="title_name">Impressions</string>
+    <string name="app_id">459230527614270</string>
+    <style name="title_name">Impressions</style>
+    <string name="title_activity_capture_photos">capture_photos</string>
+    <string name="title_activity_startupupdate">startupupdate</string>
+    <string name="title_activity_dropbox">dropbox</string>
+    <string name="title_activity_social_connect">social_connect</string>
+    <string name="title_activity_new_scapp_post">new_scapp_post</string>
+    <string name="title_activity_chat">chat</string>
+    <string name="title_activity_chat_panel">chat_panel</string>
+    <string name="title_activity_rate_us">rate_us</string>
+    <string name="title_activity_new_noti">new_noti</string>
+    <string name="title_activity_event_description">event_description</string>
+    <string name="title_activity_search">search</string>
+    <string name="title_activity_event_registration">event_registration</string>
+    <string name="title_activity_contact_us">contact_us</string>
+    <string name="title_activity_my_event">my_event</string>
+    <string name="title_activity_event_type_activity">event_type_activity</string>
+    <string name="title_activity_sponsor_description">sponsor_description</string>
+    <string name="title_activity_previous_year_memories">previous_year_memories</string>
+    <string name="title_activity_venue_">venue_Activity</string>
+    <string name="title_activity_useless">useless</string>
+</resources>

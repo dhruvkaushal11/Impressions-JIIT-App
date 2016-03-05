@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff"
+    android:weightSum="1"
+    android:id="@+id/vg"
+    android:padding="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:padding="20dp"
+        android:id="@+id/relclick_search"
+        android:background="@drawable/card2"
+        android:elevation="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Event Title-"
+            android:id="@+id/title"
+            android:textColor="#010001"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:padding="2dp"
+            android:gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/imageView_dp"
+            android:layout_toEndOf="@+id/imageView_dp" />
+
+
+        <com.impressions.jiit.OvalImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView_dp"
+            android:src="@drawable/scraap"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Event Description-"
+            android:id="@+id/message"
+            android:padding="2dp"
+            android:textColor="#484848"
+            android:elevation="0dp"
+            android:editable="false"
+            android:clickable="false"
+            android:textIsSelectable="false"
+            android:maxLines="4"
+            android:textSize="10dp"
+            android:elegantTextHeight="true"
+            android:layout_below="@+id/title"
+            android:layout_alignRight="@+id/title"
+            android:layout_alignEnd="@+id/title"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/imageView_dp"
+            android:layout_toEndOf="@+id/imageView_dp"
+            android:layout_marginLeft="5dp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.impressions.jiit" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/scraap"
+        android:label="Impressions Jiit"
+        android:theme="@style/AppTheme" >
+        <receiver android:name=".autostart" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".service1"
+            android:enabled="true" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="Impressions" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".useless"
+            android:label="@string/title_activity_useless" >
+            <intent-filter>
+                <action android:name="com.impressions.jiit.useless" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".userpage"
+            android:label="@string/title_activity_userpage" >
+            <intent-filter>
+                <action android:name="com.impressions.jiit.userpage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".startupupdate"
+            android:label="@string/title_activity_startupupdate"
+            android:theme="@style/AppTheme1.CustomTheme" >
+            <intent-filter>
+                <action android:name="com.impressions.jiit.startupupdate" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".rate_us"
+            android:label="@string/title_activity_rate_us"
+            android:theme="@style/AppTheme1.CustomTheme" >
+            <intent-filter>
+                <action android:name="com.impressions.jiit.activity_rate_us" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".new_noti"
+            android:label="@string/title_activity_new_noti"
+            android:theme="@style/AppTheme1.CustomTheme" >
+            <intent-filter>
+                <action android:name="com.impressions.jiit.new_noti" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".new_noti_list"
+            android:label="@string/title_activity_new_noti"
+            android:theme="@style/AppTheme1.CustomTheme" >
+            <intent-filter>
+                <action android:name="com.impressions.jiit.new_noti_list" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".event_description"
+            android:label="@string/title_activity_event_description" >
+            <intent-filter>
+                <action android:name="com.impressions.jiit.event_description" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".search"
+            android:label="@string/title_activity_search" >
+            <intent-filter>
+                <action android:name="com.impressions.jiit.search" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".event_registration"
+            android:label="@string/title_activity_event_registration" >
+            <intent-filter>
+                <action android:name="com.impressions.jiit.event_registration" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".my_event"
+            android:label="@string/title_activity_my_event" >
+            <intent-filter>
+                <action android:name="com.impressions.jiit.my_event" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".event_type_activity"
+            android:label="@string/title_activity_event_type_activity" >
+            <intent-filter>
+                <action android:name="com.impressions.jiit.event_type_activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".hub_type_activity"
+            android:label="@string/title_activity_event_type_activity" >
+            <intent-filter>
+                <action android:name="com.impressions.jiit.hub_type_activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".sponsor_description"
+            android:label="@string/title_activity_sponsor_description"
+            android:theme="@style/AppTheme1.CustomTheme" >
+            <intent-filter>
+                <action android:name="com.impressions.jiit.sponsor_description" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".previous_year_memories"
+            android:label="@string/title_activity_previous_year_memories" >
+            <intent-filter>
+                <action android:name="com.impressions.jiit.previous_year_memories" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".venue_Activity"
+            android:label="@string/title_activity_venue_" >
+        </activity>
+
+    </application>
+</manifest>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="black">#1560BD</color>
+    <color name="orange">#1560BD</color>
+    <color name="white">#9e0039</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#B2000000</color>
+    <color name="half_black">#fafafa</color>
+    <color name="dark_pink">#9e0039</color>
+    <color name="white_pressed">#640026</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+
+</resources>

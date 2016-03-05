@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loading_status"
+        android:textColor="#ff000000"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView4"
+        android:src="@drawable/scraap"
+        android:padding="50dp"
+        android:elevation="2dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/textView11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version 1.01 | Copyright @ Techie Dhruv"
+        android:id="@+id/textView11"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/textView12"
+        android:gravity="center_horizontal"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="10dp"
+        android:layout_below="@+id/loading_status"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="Impressions 2016 is a Annual Techno-Cultural Festival Organized by Jaypee Institute of Information Technology" />
+
+    <ImageView
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:id="@+id/facebook"
+        android:src="@drawable/facebook"
+        android:layout_below="@+id/imageView6"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:layout_above="@+id/play_store" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView6"
+        android:src="@drawable/defaultimg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="App developed and designed by  Dhruv Kaushal"
+        android:id="@+id/textView5"
+        android:background="#a41d3b"
+        android:textColor="#ffffff"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate us on Play Store"
+        android:radius="8dp"
+        android:id="@+id/play_store"
+        android:padding="10dp"
+        android:background="#66408e"
+        android:textColor="#ffffff"
+        android:elegantTextHeight="false"
+        android:layout_above="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center_horizontal" />
+
+</RelativeLayout>

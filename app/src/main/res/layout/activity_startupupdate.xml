@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.impressions.jiit.startupupdate"
+    android:background="#ffffff">
+
+    <TextView android:text="New version of Impressions App is available! It is higly recommended to upgrade to latest version!" android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/snknd"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#010101" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageclick"
+        android:src="@drawable/newversion"
+        android:layout_below="@+id/snknd"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap outside this box to dismiss!"
+        android:id="@+id/textView25"
+        android:textColor="#ff023d"
+        android:layout_below="@+id/imageclick"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
