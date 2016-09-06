@@ -78,7 +78,7 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="App developed and designed by  Dhruv Kaushal"
         android:id="@+id/textView5"
-        android:background="#a41d3b"
+        android:background="#af1d30"
         android:textColor="#ffffff"
         android:paddingTop="5dp"
         android:paddingBottom="5dp"
@@ -104,5 +104,4 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:gravity="center_horizontal" />
-
 </RelativeLayout>

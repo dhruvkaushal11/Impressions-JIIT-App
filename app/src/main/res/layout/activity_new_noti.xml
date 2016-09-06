@@ -2,43 +2,49 @@
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.impressions.jiit.new_noti"
-    android:id="@+id/hbkh"
-    android:background="#a41d3b">
+    android:id="@+id/hbkh">
 
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Impressions 2016 Notification"
+        android:text="Impressions 2015 Notification"
         android:id="@+id/textView46"
         android:padding="5dp"
         android:gravity="center_vertical|center_horizontal"
         android:background="#a41d3b"
         android:textColor="#ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/imageView15"
+        android:layout_alignStart="@+id/imageView15"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView15"
+        android:src="@drawable/scraap"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:textStyle="bold" />
+        android:layout_marginTop="39dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Medium Text   \nhttp://aegfaegsrgf"
+        android:text="Medium Text"
         android:id="@+id/noti_text"
-        android:padding="10dp"
-        android:layout_below="@+id/textView46"
+        android:layout_below="@+id/imageView15"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:padding="10dp"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:textColor="#ffffff"
-        android:textColorLink="#9fff53"
-        android:linksClickable="true"
-        android:autoLink="web" />
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -47,11 +53,11 @@
         android:text="Tap outside the Box to dismiss!"
         android:id="@+id/textView47"
         android:padding="10dp"
-        android:textColor="#faff00"
-        android:gravity="center_vertical|center_horizontal"
-        android:layout_below="@+id/noti_text"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/noti_text"
+        android:layout_alignStart="@+id/noti_text"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:textColor="#ff3741"
+        android:gravity="center_vertical|center_horizontal" />
 </RelativeLayout>

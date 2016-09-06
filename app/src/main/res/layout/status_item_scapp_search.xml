@@ -28,15 +28,15 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
-            android:layout_toRightOf="@+id/imageView_dp"
-            android:layout_toEndOf="@+id/imageView_dp" />
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
 
 
         <com.impressions.jiit.OvalImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:id="@+id/imageView_dp"
-            android:src="@drawable/scraap"
+            android:src="@drawable/default_contact"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true" />

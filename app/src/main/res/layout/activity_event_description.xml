@@ -73,10 +73,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_alignParentStart="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
-            android:padding="5dp"
-            android:linksClickable="true"
-            android:autoLink="web"
-            android:textIsSelectable="true" />
+            android:padding="5dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -102,10 +99,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_alignLeft="@+id/textView48"
             android:layout_alignStart="@+id/textView48"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:linksClickable="true"
-            android:autoLink="web"
-            android:textIsSelectable="true" />
+            android:layout_alignParentEnd="true" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -131,10 +125,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:linksClickable="true"
-            android:autoLink="web"
-            android:textIsSelectable="true" />
+            android:layout_alignParentEnd="true" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -160,10 +151,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_alignLeft="@+id/textView49"
             android:layout_alignStart="@+id/textView49"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:linksClickable="true"
-            android:autoLink="web"
-            android:textIsSelectable="true" />
+            android:layout_alignParentEnd="true" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -189,10 +177,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_alignLeft="@+id/textView52"
             android:layout_alignStart="@+id/textView52"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:linksClickable="true"
-            android:autoLink="web"
-            android:textIsSelectable="true" />
+            android:layout_alignParentEnd="true" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -244,38 +229,23 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:textIsSelectable="true"
-            android:linksClickable="true"
-            android:autoLink="phone" />
+            android:layout_alignParentStart="true" />
 
         <TextView
-            android:layout_width="fill_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Register "
             android:id="@+id/register_event"
             android:padding="10dp"
+            android:layout_below="@+id/contact"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/contact"
+            android:layout_alignEnd="@+id/contact"
             android:gravity="center_horizontal"
             android:textColor="#ffffff"
             android:background="#3e6eaa"
-            android:layout_below="@+id/contact"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
-
-        <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/share_whatsapp"
-            android:layout_below="@+id/register_event"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:padding="10dp"
-            android:background="#ad132c"
-            android:text="Share this Event"
-            android:textColor="#ffffff"
-            android:gravity="center_horizontal"
-            android:layout_marginTop="5dp" />
-
+            android:layout_alignParentBottom="true" />
     </RelativeLayout>
     </ScrollView>
 

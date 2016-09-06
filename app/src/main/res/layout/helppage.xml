@@ -14,7 +14,7 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Need help ? Here you go"
         android:id="@+id/textView3"
-        android:background="#a41d3b"
+        android:background="#af1d30"
         android:textColor="#ffffff"
         android:paddingTop="5dp"
         android:paddingBottom="5dp"
@@ -91,7 +91,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="My Events"
+        android:text="Manage Events"
         android:id="@+id/textView19"
         android:padding="10dp"
         android:gravity="center_horizontal" />
@@ -99,7 +99,7 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Using My Event you can View  your event participation"
+        android:text="Using My Event you can View or Cancel your event participation"
         android:id="@+id/textView20"
         android:padding="10dp" />
 
@@ -125,7 +125,7 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="All the notification will be announced here!\n\nFor Xiaomi users\nIn order to receive notification please follow the following steps\n\n1. Go to your 'Security' App \n2. Tap on 'Permissions'\n3. Tap on 'Autostart' and turn on the 'Autostart' button for Impressions Jiit"
+        android:text="All the notification will be announced here!"
         android:id="@+id/textView22"
         android:padding="10dp" />
 
@@ -134,7 +134,7 @@
         android:layout_height="wrap_content"
         android:text="If you need more help just drop us a message on Feedback/Contact Us Page!"
         android:id="@+id/textView23"
-        android:background="#a41d3b"
+        android:background="#af1d30"
         android:textColor="#ffffff"
         android:padding="10dp" />
 

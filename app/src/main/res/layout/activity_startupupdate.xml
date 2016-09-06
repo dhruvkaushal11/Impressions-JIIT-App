@@ -7,7 +7,7 @@
     tools:context="com.impressions.jiit.startupupdate"
     android:background="#ffffff">
 
-    <TextView android:text="New version of Impressions App is available! It is higly recommended to upgrade to latest version!" android:layout_width="fill_parent"
+    <TextView android:text="New version of Impressions App is available! It is higly recommended to upgrade to newest version!" android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/snknd"
         android:layout_alignParentTop="true"

@@ -105,7 +105,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Make sure all the field you provided are correct ! "
+                android:text="Make sure all the field you privided are correct! "
                 android:id="@+id/textView6"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"

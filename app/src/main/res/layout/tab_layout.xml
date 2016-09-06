@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:fab="http://schemas.android.com/apk/res-auto"
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -12,55 +11,21 @@
         android:id="@+id/tabs"
         app:tabGravity="fill"
         app:tabMode="fixed"
-        android:background="#a41d3b"
-        app:tabIndicatorColor="#a41d3b"
+        android:background="#1560BD"
+        app:tabIndicatorColor="#1560BD"
         app:tabSelectedTextColor="#FFFFFF"
-        app:tabTextColor="#FFFFFF"
+        app:tabTextColor="#80DAEB"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:fillViewport="true">
+        android:layout_height="0dp">
     </android.support.design.widget.TabLayout>
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewpager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/tabs">
+        android:layout_height="match_parent">
 
     </android.support.v4.view.ViewPager>
 
-    <com.impressions.jiit.FloatingActionsMenu
-        android:id="@+id/multiple_actions"
-        android:layout_width="367dp"
-        android:layout_height="418dp"
-        fab:fab_addButtonColorNormal="@color/white"
-        fab:fab_addButtonColorPressed="@color/white_pressed"
-        fab:fab_addButtonPlusIconColor="@color/half_black"
-        fab:fab_labelStyle="@style/menu_labels_style"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true">
-
-        <com.impressions.jiit.FloatingActionButton
-            android:id="@+id/action_a"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            fab:fab_icon="@drawable/ic_search_white_24dp"
-            fab:fab_colorNormal="@color/white"
-            fab:fab_title="Search an Event"
-            fab:fab_colorPressed="@color/white_pressed"/>
-
-        <com.impressions.jiit.FloatingActionButton
-            android:id="@+id/action_b"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            fab:fab_colorNormal="@color/white"
-            fab:fab_icon="@drawable/add_friend"
-            fab:fab_title="My Events"
-            fab:fab_colorPressed="@color/white_pressed"/>
-
-    </com.impressions.jiit.FloatingActionsMenu>
 
 
-
-</RelativeLayout>
+</LinearLayout>

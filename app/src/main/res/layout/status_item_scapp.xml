@@ -10,93 +10,85 @@
     <RelativeLayout
         android:layout_width="151dp"
         android:layout_height="211dp"
+        android:padding="10dp"
         android:id="@+id/relclick"
         android:background="@drawable/card2"
-        android:elevation="0dp"
-        android:paddingTop="20dp"
-        android:paddingBottom="20dp"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp">
+        android:elevation="0dp">
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Username-"
+            android:id="@+id/title"
+            android:textColor="#010001"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:padding="2dp"
+            android:gravity="center_horizontal"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/dpImage_scapp"
+            android:layout_alignEnd="@+id/dpImage_scapp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Your Username-"
-                android:id="@+id/title"
-                android:textColor="#010101"
-                android:textSize="12dp"
-                android:textStyle="bold"
-                android:padding="2dp"
-                android:gravity="center_horizontal"
-                android:layout_centerVertical="true"
-                android:layout_alignRight="@+id/memories_Dp"
-                android:layout_alignEnd="@+id/memories_Dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Date"
+            android:id="@+id/date"
+            android:layout_gravity="right"
+            android:paddingRight="10dp"
+            android:textColor="#ff1d6728"
+            android:textSize="0dp"
+            android:layout_alignTop="@+id/time"
+            android:layout_alignLeft="@+id/dpImage_scapp"
+            android:layout_alignStart="@+id/dpImage_scapp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Date"
-                android:id="@+id/date"
-                android:layout_gravity="right"
-                android:paddingRight="10dp"
-                android:textColor="#ff1d6728"
-                android:textSize="0dp"
-                android:layout_alignTop="@+id/time"
-                android:layout_alignLeft="@+id/memories_Dp"
-                android:layout_alignStart="@+id/memories_Dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:id="@+id/dpImage_scapp"
+            android:src="@drawable/default_contact"
+            android:layout_above="@+id/title"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="200dp"
-                android:id="@+id/memories_Dp"
-                android:src="@drawable/default_contact"
-                android:layout_above="@+id/title"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_marginTop="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Time"
+            android:id="@+id/time"
+            android:layout_gravity="right"
+            android:paddingRight="10dp"
+            android:textColor="#ff1d6728"
+            android:textSize="0dp"
+            android:layout_alignRight="@+id/dpImage_scapp"
+            android:layout_alignEnd="@+id/dpImage_scapp"
+            android:layout_alignTop="@+id/dpImage_scapp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Time"
-                android:id="@+id/time"
-                android:layout_gravity="right"
-                android:paddingRight="10dp"
-                android:textColor="#ff1d6728"
-                android:textSize="0dp"
-                android:layout_alignRight="@+id/memories_Dp"
-                android:layout_alignEnd="@+id/memories_Dp"
-                android:layout_alignTop="@+id/memories_Dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Message -"
-                android:id="@+id/message"
-                android:padding="2dp"
-                android:textColor="#595959"
-                android:elevation="0dp"
-                android:editable="false"
-                android:clickable="false"
-                android:textIsSelectable="false"
-                android:maxLines="5"
-                android:textSize="10dp"
-                android:elegantTextHeight="true"
-                android:layout_below="@+id/title"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentBottom="true" />
-        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message -"
+            android:id="@+id/message"
+            android:padding="2dp"
+            android:textColor="#484848"
+            android:elevation="0dp"
+            android:editable="false"
+            android:clickable="false"
+            android:textIsSelectable="false"
+            android:maxLines="5"
+            android:textSize="10dp"
+            android:elegantTextHeight="true"
+            android:layout_below="@+id/title"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true" />
 
 
     </RelativeLayout>
